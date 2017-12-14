@@ -14,7 +14,6 @@ def collatz(n):
         else:
             new_n = (n*3) + 1
             print(new_n)
-            #global iterator
             iterator = iterator + 1
             collatz(new_n)
         break
